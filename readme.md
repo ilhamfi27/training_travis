@@ -74,6 +74,6 @@ $DOCKER_PASSWORD
 5. push ke github
 6. tunggu hingga proses testing dan build berhasil
 7. cek di docker hub apakah repository punya kita sudah ter-push
-8. pull repository kita -> docker pull ilhamfadhilah/training_travis
+8. pull repository kita -> ```docker pull ilhamfadhilah/training_travis```
 9. pastikan key di laravel sudah ter generate. ada di file .env nama key nya APP_KEY=
-10. jalankan docker -> docker run -p 0.0.0.0:8080:8080/tcp --env-file ./.env ilhamfadhilah/training_travis
+10. jalankan docker -> ```docker run -p 0.0.0.0:8080:8080/tcp --env-file ./.env ilhamfadhilah/training_travis```
